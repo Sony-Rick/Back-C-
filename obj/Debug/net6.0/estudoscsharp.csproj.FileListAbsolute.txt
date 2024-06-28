@@ -1,0 +1,15 @@
+C:\workspace\estudoscsharp\bin\Debug\net6.0\estudoscsharp.exe
+C:\workspace\estudoscsharp\bin\Debug\net6.0\estudoscsharp.deps.json
+C:\workspace\estudoscsharp\bin\Debug\net6.0\estudoscsharp.runtimeconfig.json
+C:\workspace\estudoscsharp\bin\Debug\net6.0\estudoscsharp.dll
+C:\workspace\estudoscsharp\bin\Debug\net6.0\estudoscsharp.pdb
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.csproj.AssemblyReference.cache
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.AssemblyInfoInputs.cache
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.AssemblyInfo.cs
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.csproj.CoreCompileInputs.cache
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.dll
+C:\workspace\estudoscsharp\obj\Debug\net6.0\refint\estudoscsharp.dll
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.pdb
+C:\workspace\estudoscsharp\obj\Debug\net6.0\estudoscsharp.genruntimeconfig.cache
+C:\workspace\estudoscsharp\obj\Debug\net6.0\ref\estudoscsharp.dll

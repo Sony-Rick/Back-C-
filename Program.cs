@@ -97,4 +97,42 @@
 // double volume = comprimento * largura * altura;
 // Console.WriteLine($"O Volume da Caixa é {volume}");
 
-///Exercicio 7
+///Exercicio 6 com função 
+
+// Console.WriteLine("Diga o Comprimento da caixa");
+// double comprimento = double.Parse(Console.ReadLine());  
+
+// Console.WriteLine("Diga a Largura da caixa");
+// double largura = double.Parse(Console.ReadLine()); 
+
+// Console.WriteLine("Diga a Altura da caixa");
+// double altura = double.Parse(Console.ReadLine());
+
+// double volume = CalcularVolume(comprimento, largura,altura);
+
+// double CalcularVolume(double comprimento, double largura,double altura){
+//     return comprimento * largura * altura;
+// }
+
+// Console.WriteLine($"O volume é igual a : {volume}");
+
+// ///Exercicio 7
+
+// Console.WriteLine("Valor de A ");
+// int A = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Valor de B");
+// int B = int.Parse(Console.ReadLine());
+
+// int diferença = A - B;
+
+// int quadrado = diferença * diferença;
+
+// Console.WriteLine($"O quadrado da diferença de A e B é = {quadrado}");
+
+///Exercicio 8 
+
+
+
+
+

@@ -184,5 +184,23 @@
 // Console.WriteLine($"O resultado da Soma é: {soma}\n O resultado da Subtração é :{subtracao}\n O resultado da Divisão é :{divisao}\n O resultado da Multiplicação é igual :{multiplicacao}");
 
 ///Exercicio 11 
-//      Elaborar um programa de computador que calcule e apresente o valor do volume de
-// uma esfera. Utilize a fórmula VOLUME <- (4 / 3) * 3.14159 * (RAIO3).
+
+// Console.WriteLine("Digite o  valor do raio :");
+// double raio = double.Parse(Console.ReadLine());
+
+// double volume = (4.0/3.0)* Math.PI * Math.Pow(raio,3);
+
+// Console.WriteLine($"O Volume de uma esfera é : {volume}");
+
+///Exercicio 12 
+
+// Console.WriteLine("Insira um valor");
+
+// int valor = int.Parse(Console.ReadLine());
+
+// int sucessor = valor +1;
+
+// int antecessor = valor -1;   
+
+// Console.WriteLine($"Valor sucessor {sucessor} Valor Antecessor {antecessor}");
+

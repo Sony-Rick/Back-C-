@@ -131,17 +131,17 @@
 
 ///Exercicio 8 
 
-// Console.WriteLine("Digite o valor em reais para converção em dolar");
+// Console.WriteLine("Digite o valor em Dòlar para converção em Reais:");
 
 // decimal valor = decimal.Parse(Console.ReadLine());
 
-// Console.WriteLine("Digite o valor do Dolar atual");
+// Console.WriteLine("Digite o valor da cotação do Dólar:");
 
-// decimal dolar = decimal.Parse(Console.ReadLine());
+// decimal cotacao = decimal.Parse(Console.ReadLine());
 
-// decimal convercao = valor *  dolar;
+// decimal conversao = valor *  cotacao;
 
-// Console.WriteLine($"Valor da converção em dolar $:{convercao:F}");
+// Console.WriteLine($"Valor da converção em real: $:{conversao:F}");
 
 ///Exercicio 9 
 
@@ -157,14 +157,14 @@
 
 // int C = int.Parse(Console.ReadLine());
 
-// int soma = A + B + C;
+// int calculo = (A + B + C) * 2;
 
-// int quadrado = soma * 2;
-
-// Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{quadrado}");
+// Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{calculo}");
 
 ///Exercicio 10 
 ///Elaborar um programa que leia dois valores numéricos reais desconhecidos
 // representados pelas variáveis A e B. Calcular e apresentar os resultados das quatro
 // operações aritméticas básicas (soma, subtração, divisão e multiplicação).
+
+
 

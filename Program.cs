@@ -144,3 +144,27 @@
 // Console.WriteLine($"Valor da converção em dolar $:{convercao:F}");
 
 ///Exercicio 9 
+
+// Console.WriteLine("Digite o valor de A ");
+
+// int A = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Digite o valor de B ");
+
+// int B = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Digite o valor C ");
+
+// int C = int.Parse(Console.ReadLine());
+
+// int soma = A + B + C;
+
+// int quadrado = soma * 2;
+
+// Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{quadrado}");
+
+///Exercicio 10 
+///Elaborar um programa que leia dois valores numéricos reais desconhecidos
+// representados pelas variáveis A e B. Calcular e apresentar os resultados das quatro
+// operações aritméticas básicas (soma, subtração, divisão e multiplicação).
+

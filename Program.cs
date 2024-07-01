@@ -141,25 +141,27 @@
 
 // decimal conversao = valor *  cotacao;
 
-// Console.WriteLine($"Valor da converção em real: $:{conversao:F}");
+// Console.WriteLine($"Valor da converção em real: $:{conversao:F2}");
 
-///Exercicio 9 
+// /Exercicio 9 
 
-// Console.WriteLine("Digite o valor de A ");
+Console.WriteLine("Digite o valor de A ");
 
-// int A = int.Parse(Console.ReadLine());
+int A = int.Parse(Console.ReadLine());
 
-// Console.WriteLine("Digite o valor de B ");
+Console.WriteLine("Digite o valor de B ");
 
-// int B = int.Parse(Console.ReadLine());
+int B = int.Parse(Console.ReadLine());
 
-// Console.WriteLine("Digite o valor C ");
+Console.WriteLine("Digite o valor C ");
 
-// int C = int.Parse(Console.ReadLine());
+int C = int.Parse(Console.ReadLine());
 
-// int calculo = (A + B + C) * 2;
+int soma = A + B + C;
 
-// Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{calculo}");
+int quadrado = soma * soma;
+
+Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{quadrado}");
 
 ///Exercicio 10 
 ///Elaborar um programa que leia dois valores numéricos reais desconhecidos

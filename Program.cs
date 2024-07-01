@@ -50,25 +50,25 @@
 // Console.WriteLine($"Idades em Anos: {idadeAnos}\nIdade em Meses: {idadeMeses}\nIdade em Semanas: {idadeSemana}\nIdade Dias: {idadeDias}");
 
 
-///Exercicio 4 
+// /Exercicio 4 
 
-// Console.WriteLine("Peso do Saco:");//10kilos
+Console.WriteLine("Peso do Saco:");//10kilos
 
-// double sacoRacao = double.Parse(Console.ReadLine());
+double sacoRacao = double.Parse(Console.ReadLine());
 
-// double gramas = sacoRacao * 1000;
+double sacoGramas = sacoRacao * 1000;
 
-// Console.WriteLine("Porção da raçao:");//200 gramas
+Console.WriteLine("Porção da raçao:");//200 gramas
 
-// double porcao = double.Parse(Console.ReadLine());
+double porcao = double.Parse(Console.ReadLine());
 
-// double consumoDiario = porcao * 2 ;
+double consumo = porcao * 2 * 5; 
 
-// double consumo5dias = consumoDiario * 5; 
+double racaoRestante = sacoGramas - consumo;
 
-// double racaoRestante = sacoRacao / consumo5dias;
+Console.WriteLine($"Ração restante no saco {racaoRestante} gramas");
 
-// Console.WriteLine($"Ração restante no saco {racaoRestante} ");
+///Exercicio 5 
 
 ///Exercicio 5 
 

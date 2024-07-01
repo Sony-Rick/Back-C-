@@ -1,0 +1,33 @@
+// var ListGeneruca = new List<string>();
+
+// {
+//     "Curso Microsoft c#",
+//     "Estartando Deves",
+//     "2024"
+// };
+
+// foreach (var item in ListGeneruca)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+// var dicionario = new Dictionary<int, string>();
+
+// dicionario.Add(1,"Curso C#");
+// dicionario.Add(2,"Estartando Deves");
+// dicionario.Add(3,"2024");
+
+// var curso = dicionario[2];
+
+// Console.WriteLine(curso)
+
+
+// foreach (var item in dicionario)    
+// {
+//     Console.WriteLine(item.Value)
+// }
+
+// var queue = new Queue<object>
+
+// Array

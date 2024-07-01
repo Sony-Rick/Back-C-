@@ -145,28 +145,44 @@
 
 // /Exercicio 9 
 
-Console.WriteLine("Digite o valor de A ");
+// Console.WriteLine("Digite o valor de A ");
 
-int A = int.Parse(Console.ReadLine());
+// int A = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Digite o valor de B ");
+// Console.WriteLine("Digite o valor de B ");
 
-int B = int.Parse(Console.ReadLine());
+// int B = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Digite o valor C ");
+// Console.WriteLine("Digite o valor C ");
 
-int C = int.Parse(Console.ReadLine());
+// int C = int.Parse(Console.ReadLine());
 
-int soma = A + B + C;
+// int soma = A + B + C;
 
-int quadrado = soma * soma;
+// int quadrado = soma * soma;
 
-Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{quadrado}");
+// Console.WriteLine($"Valor do quadrado da soma dos 3 valores é igual a :{quadrado}");
 
 ///Exercicio 10 
-///Elaborar um programa que leia dois valores numéricos reais desconhecidos
-// representados pelas variáveis A e B. Calcular e apresentar os resultados das quatro
-// operações aritméticas básicas (soma, subtração, divisão e multiplicação).
 
+// Console.WriteLine("Digite o valor de A");
 
+// double? A = double.Parse(Console.ReadLine());
 
+// Console.WriteLine("Digite o valor de B");
+
+// double? B = double.Parse(Console.ReadLine());
+
+// double? soma = A + B;
+
+// double? subtracao = A - B;
+
+// double? divisao = A / B ;
+
+// double? multiplicacao = A * B ;
+
+// Console.WriteLine($"O resultado da Soma é: {soma}\n O resultado da Subtração é :{subtracao}\n O resultado da Divisão é :{divisao}\n O resultado da Multiplicação é igual :{multiplicacao}");
+
+///Exercicio 11 
+//      Elaborar um programa de computador que calcule e apresente o valor do volume de
+// uma esfera. Utilize a fórmula VOLUME <- (4 / 3) * 3.14159 * (RAIO3).

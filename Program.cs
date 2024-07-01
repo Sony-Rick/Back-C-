@@ -52,23 +52,22 @@
 
 // /Exercicio 4 
 
-Console.WriteLine("Peso do Saco:");//10kilos
+// Console.WriteLine("Peso do Saco:");//10kilos
 
-double sacoRacao = double.Parse(Console.ReadLine());
+// double sacoRacao = double.Parse(Console.ReadLine());
 
-double sacoGramas = sacoRacao * 1000;
+// double sacoGramas = sacoRacao * 1000;
 
-Console.WriteLine("Porção da raçao:");//200 gramas
+// Console.WriteLine("Porção da raçao:");//200 gramas
 
-double porcao = double.Parse(Console.ReadLine());
+// double porcao = double.Parse(Console.ReadLine());
 
-double consumo = porcao * 2 * 5; 
+// double consumo = porcao * 2 * 5; 
 
-double racaoRestante = sacoGramas - consumo;
+// double racaoRestante = sacoGramas - consumo;
 
-Console.WriteLine($"Ração restante no saco {racaoRestante} gramas");
+// Console.WriteLine($"Ração restante no saco {racaoRestante} gramas");
 
-///Exercicio 5 
 
 ///Exercicio 5 
 
@@ -132,7 +131,16 @@ Console.WriteLine($"Ração restante no saco {racaoRestante} gramas");
 
 ///Exercicio 8 
 
+// Console.WriteLine("Digite o valor em reais para converção em dolar");
 
+// decimal valor = decimal.Parse(Console.ReadLine());
 
+// Console.WriteLine("Digite o valor do Dolar atual");
 
+// decimal dolar = decimal.Parse(Console.ReadLine());
 
+// decimal convercao = valor *  dolar;
+
+// Console.WriteLine($"Valor da converção em dolar $:{convercao:F}");
+
+///Exercicio 9 

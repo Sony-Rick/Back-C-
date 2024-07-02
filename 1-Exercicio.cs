@@ -167,19 +167,19 @@
 
 // Console.WriteLine("Digite o valor de A");
 
-// double? A = double.Parse(Console.ReadLine());
+// double A = double.Parse(Console.ReadLine());
 
 // Console.WriteLine("Digite o valor de B");
 
-// double? B = double.Parse(Console.ReadLine());
+// double B = double.Parse(Console.ReadLine());
 
-// double? soma = A + B;
+// double soma = A + B;
 
-// double? subtracao = A - B;
+// double subtracao = A - B;
 
-// double? divisao = A / B ;
+// double divisao = A / B ;
 
-// double? multiplicacao = A * B ;
+// double multiplicacao = A * B ;
 
 // Console.WriteLine($"O resultado da Soma é: {soma}\n O resultado da Subtração é :{subtracao}\n O resultado da Divisão é :{divisao}\n O resultado da Multiplicação é igual :{multiplicacao}");
 

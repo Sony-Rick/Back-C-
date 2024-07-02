@@ -31,3 +31,15 @@
 // var queue = new Queue<object>
 
 // Array
+
+// int [] arryInteiros = new int [] { 4};
+
+// arryInteiros[0] = 72;
+// arryInteiros[1] = 64;
+// arryInteiros[2] = 50;
+// arryInteiros[3] = 11;
+
+// Array.Resize(ref arryInteiros,arryInteiros.Length * 2);
+
+// Console.WriteLine("Percorrendo o Array com FOR");
+// for (int contador = 0; contador <arrayInteiros.Length; >)

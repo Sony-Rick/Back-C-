@@ -1,0 +1,124 @@
+// var ListGeneruca = new List<string>();
+
+// {
+//     "Curso Microsoft c#",
+//     "Estartando Deves",
+//     "2024"
+// };
+
+// foreach (var item in ListGeneruca)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+// var dicionario = new Dictionary<int, string>();
+
+// dicionario.Add(1,"Curso C#");
+// dicionario.Add(2,"Estartando Deves");
+// dicionario.Add(3,"2024");
+
+// var curso = dicionario[2];
+
+// Console.WriteLine(curso)
+
+
+// foreach (var item in dicionario)    
+// {
+//     Console.WriteLine(item.Value)
+// }
+
+// var queue = new Queue<object>
+
+// Array
+
+// int [] arryInteiros = new int [] { 4};
+
+// arryInteiros[0] = 72;
+// arryInteiros[1] = 64;
+// arryInteiros[2] = 50;
+// arryInteiros[3] = 11;
+
+// Array.Resize(ref arryInteiros,arryInteiros.Length * 2);
+
+// Console.WriteLine("Percorrendo o Array com FOR");
+// for (int contador = 0; contador <arrayInteiros.Length; >)
+
+
+using System.Runtime.CompilerServices;
+
+///laço de repeticação
+///For - vai executar a função com numero determinado de vezes, usar o For quando vc saber quantas vezes vc vai querer executar ele
+// for (var contador = 0; contador < 10; contador++)
+// {
+//     Console.WriteLine($"Esta é a {contador} vez que executa o laço de repeticação");
+// }
+
+// var lista = new List<string>(){"Curso","Estartando Devs" . "2024"};
+
+// for(var item = 0; item < lista.Count; item++){
+//     var nome = lista[item];
+
+//     Console.WriteLine(nome);
+// }
+
+// ///Foreach
+// ///Percorer por uma estrutura de dados
+
+// var lista = new List<string>(){"Curso" , "Estartando Devs" , "2024"};
+
+// foreach(var item in lista){
+//     Console.WriteLine(item);
+// }
+
+///While
+///Executar um grupo de condições ate uma delas ser verdadeira, vc usa while quando vc nao tem certeza de quantas vezes vc vai repetir o codigo
+
+// var i = 0;
+
+// while (i < 4){
+//     Console.WriteLine($"Valor de i é {i}");
+//     i++;
+// }
+
+///Dowhile
+///Primeiro executa o comando depois verifica, e fica nesse lumpim ate ser verdadeira
+///
+
+// var j = 0;
+
+// while (j < 4)
+// do 
+// {
+//     Console.WriteLine($"Valor de j é {j}");
+//     j++;
+// }
+
+///break/continue. breack para interroper um laço de repetição, continue para iniciar novamente 
+///a variavel é escrita dentro de um codigo como um debungign
+///O continue ele para a execução do codigo e inicia do laço novamente ate as condições do laço serem requisitadas 
+
+///Convert/ Parse - conversores de tipo 
+// parse= converte dados como de instrig para inteiro
+
+// int numero = int.Parse("10");
+// Console.WriteLine(numero);
+
+// ///Convert
+
+// int numero - Convert.ToInt32("10");
+// Console.WriteLine(numero);
+
+///TryParse - ele verifica se pode fazer a converçao  e devolve o valor transformado,
+
+
+///manipulção de string 
+
+/// ToLower - transforma uma cadeia de uma frase em minusculas 
+/// ToUpper - transfomar uma cadeia de frase em maiscula 
+/// Substring - selecionar uma parte especifica dentro de uma string
+/// 
+///Contains - Ele procura e verefica se exsite alguma palavra que esteja sendo solicitada
+///Trim - Ele remove um caracter se esteja sendo solicitado e ele tira o caracter de todo o codigo
+///TrimStart - Ele só remove no inicio da string 
+///TrimEnd - Apaga os caracteres na parte final 

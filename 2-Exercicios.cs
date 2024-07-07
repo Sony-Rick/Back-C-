@@ -222,15 +222,15 @@
 
 ///Exercicio 19
 
-// Console.WriteLine("Valor de A");
+// Console.WriteLine("Digite um valor");
 
 // int A = int.Parse(Console.ReadLine());
 
-// Console.WriteLine("Valor de B");
+// Console.WriteLine("Digite um valor");
 
 // int B = int.Parse(Console.ReadLine());
 
-// Console.WriteLine("Valor de C");
+// Console.WriteLine("Digite um valor");
 
 // int C = int.Parse(Console.ReadLine());
 
@@ -254,3 +254,41 @@
 //     Console.WriteLine("Os valores fornecidos não formam um triângulo");
 // }
 
+///Exercicio 20 - Escrever um programa declarando três variáveis do tipo inteiro (a, b e c). Ler um valor maior que zero para cada
+// variável (se o valor digitado não é válido, mostrar mensagem e ler novamente). Exibe o menor valor lido
+// multiplicado pelo maior e o maior valor dividido pelo menor.
+// int A = LerValor("A");
+// int B = LerValor("B");
+// int C = LerValor("C");
+
+// int menor = A;
+//         if (B < menor) menor = B;
+//         if (C < menor) menor = C;
+
+//         int maior = A;
+//         if (B > maior) maior = B;
+//         if (C > maior) maior = C;
+
+// int LerValor(string numero){
+//     while(true){
+//         Console.Write("Digite um numero");
+//         if(int.TryParse(Console.ReadLine(), out int valor)&& valor > 0)
+//         {
+//             return valor;
+//         }
+//         Console.WriteLine("Valor invalido , por favor digite um valor maior que zero");
+//     }
+// }
+
+///Exercicio 22 - ) Faça um programa que leia um número inteiro e mostre uma mensagem na tela indicando se este número é
+// positivo ou negativo. Pare a execução do programa quando o usuário requisitar. 
+
+// Console.WriteLine("Digite um valor");
+// int valor = int.Parse(Console.ReadLine());
+
+// switch (valor) 
+// {
+//     case 0:
+
+    
+// }

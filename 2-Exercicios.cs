@@ -96,7 +96,7 @@
 
 // double maior , menor;
 
-// if (numero1 >= numero2 )
+// if (numero1 > numero2 )
 // {
 //     maior = numero1;
 //     menor = numero2;
@@ -104,7 +104,7 @@
 //     double diferenca = numero1 % numero2;
 //     Console.WriteLine($"A diferença entre valores é : {diferenca}");
 // }
-// else if (numero2 >= numero1 )
+// else if (numero2 > numero1 )
 // {
 //     maior = numero2;
 //     menor = numero1;
@@ -114,7 +114,6 @@
 // }
 
 ///Exercicio 15 
-
 
 // Console.WriteLine("Digite a nota do primeiro bimestre");
 
@@ -132,7 +131,7 @@
 
 // double nota4 = double.Parse(Console.ReadLine());
 
-// double media = nota1 + nota2 + nota3 + nota4 /4;
+// double media = (nota1 + nota2 + nota3 + nota4) /4;
 
 // if(media >= 7)
 // {
@@ -142,7 +141,8 @@
 // {
 //     Console.WriteLine("Digite o valor da recuperação");
 //     double recuperacao = double.Parse(Console.ReadLine());
-//     double novaMedida = media + recuperacao;
+//     double novaMedida = (media + recuperacao)/2;
+    
 //     if(novaMedida >= 7)
 //     {
 //         Console.WriteLine("Aluno Aprovado");
@@ -210,13 +210,15 @@ int valor = int.Parse(input.ReadLine());
 switch (valor)
 {
     case 1:
-    Console.WriteLine("Valor Valido");
-    
-    case 2:
-    Console.WriteLine("Valor Valido");
-    case 3:
-    Console.WriteLine("Valor Valido");
+    Console.WriteLine("um");
     break;
+    case 2:
+    Console.WriteLine("dois");
+    break;
+    case 3:
+    Console.WriteLine("três");
+    break;
+    
     default:
     Console.WriteLine("Codigo invalido");
     break;

@@ -190,7 +190,7 @@
 
 // int numero1 = int.Parse(Console.ReadLine()); 
 
-// if(numero1 >= 0 || numero1 >= 9)
+// if(numero1 >= 0 && numero1 <= 9)
 // {
 //     Console.WriteLine("Valor valido");
 // }
@@ -199,27 +199,44 @@
 //     Console.WriteLine("Valor invalido");
 // }
 
-///Exercicio 18 _ Escreva um programa que leia um número inteiro (variável CODIGO). Verificar se o código é igual a 1, igual a 2 ou
-// igual a 3. Caso não seja, apresentar a mensagem “Código inválido”. Ao ser verificado o código e constatado que é
-// um valor válido, o programa deve verificar cada código em separado para determinar seu valor por extenso, ou
-// seja, apresentar a mensagem “um”, ”dois” ou “três”. (Utilizar o comando Switch). 
+///Exercicio 18 
+// Console.WriteLine("Digite um valor");
+// int valor = int.Parse(Console.ReadLine()); 
 
-Console.WriteLine("Digite um valor");
-int valor = int.Parse(input.ReadLine()); 
-
-switch (valor)
-{
-    case 1:
-    Console.WriteLine("um");
-    break;
-    case 2:
-    Console.WriteLine("dois");
-    break;
-    case 3:
-    Console.WriteLine("três");
-    break;
+// switch (valor)
+// {
+//     case 1:
+//     Console.WriteLine("um");
+//     break;
+//     case 2:
+//     Console.WriteLine("dois");
+//     break;
+//     case 3:
+//     Console.WriteLine("três");
+//     break;
     
-    default:
-    Console.WriteLine("Codigo invalido");
-    break;
-}
+//     default:
+//     Console.WriteLine("Codigo invalido");
+//     break;
+// }
+
+///Exercicio 19-Escreva um programa que leia três valores para os lados de um triângulo (variáveis A, B e C). Verificar se cada
+// lado é menor que a soma dos outros dois lados. Se sim, saber de A==B e se B==C, sendo verdade o triângulo é
+// eqüilátero; Se não, verificar de A==B ou se A==C ou se B==C, sendo verdade o triângulo é isósceles; e caso
+// contrário, o triângulo será escaleno. Caso os lados fornecidos não caracterizarem um triângulo, avisar a
+// ocorrência.
+
+Console.WriteLine("Valor de A");
+
+int A = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Valor de B");
+
+int B = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Valor de C");
+
+int C = int.Parse(Console.ReadLine());
+
+
+

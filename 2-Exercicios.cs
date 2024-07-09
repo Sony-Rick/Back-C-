@@ -278,33 +278,44 @@
 //     }
 // }
 
-///Exercicio 21 - ) Faça um programa que leia um número inteiro e mostre uma mensagem na tela indicando se este número é
-// positivo ou negativo. Pare a execução do programa quando o usuário requisitar. 
+///Exercicio 21 - 
+// while (true) 
+// {   
+//     Console.WriteLine("Digite um número inteiro (ou 'sair' para terminar): ");
+//     string input = Console.ReadLine();
 
+//     if (input.ToLower() == "sair")
+//     {
+//         break;
+//     }
+
+//     if ( int.TryParse (input, out int numero) )
+//         {
+//         if (numero > 0 )
+//         {
+//             Console.WriteLine("O valor é positivo");
+//         }
+        
+//         else
+//         {
+//             Console.WriteLine("O valor é negativo");
+//         }
+//         }
+// }
+
+///Exercicio 22-Faça um programa que leia um número. Se positivo armazene-o em A, se for negativo, em B. No final mostrar o
+// resultado
 
 // Console.WriteLine("Digite um valor");
 // int valor = int.Parse(Console.ReadLine());
 
-// if (valor >= 0){
-//     Console.WriteLine("O valor é positivo");
+// if (valor >= 0)
+// {
+//     int A = valor;
+//     int B = Writeline = "Sem "
 // }
 // else
 // {
-//     Console.WriteLine("O valor é negativo");
-// }
-
-
-
-///Exercicio 22-
-// Console.WriteLine("Digite um valor");
-// int valor = int.Parse(Console.ReadLine());
-
-// if (valor >= 0){
-//     Console.WriteLine("O valor é positivo");
-// }
-// else
-// {
-//     Console.WriteLine("O valor é negativo");
 // }
 
 

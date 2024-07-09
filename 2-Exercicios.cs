@@ -278,7 +278,7 @@
 //     }
 // }
 
-///Exercicio 21 - 
+// /Exercicio 21 - 
 // while (true) 
 // {   
 //     Console.WriteLine("Digite um número inteiro (ou 'sair' para terminar): ");
@@ -286,38 +286,42 @@
 
 //     if (input.ToLower() == "sair")
 //     {
-//         break;
+//         break;  
 //     }
 
-//     if ( int.TryParse (input, out int numero) )
-//         {
-//         if (numero > 0 )
-//         {
-//             Console.WriteLine("O valor é positivo");
-//         }
-        
-//         else
-//         {
-//             Console.WriteLine("O valor é negativo");
-//         }
-//         }
+//     else if ( int.TryParse (input, out int numero) )
+//     {
+
+//             if (numero > 0 )
+//             {
+//                 Console.WriteLine("O valor é positivo");
+//             }
+            
+//             else
+//             {
+//                 Console.WriteLine("O valor é negativo");
+//             }
+//     }
+//     else
+//     {
+//         Console.WriteLine ("Número invalido, por favor Digite um número valido ");
+//     }
 // }
 
-///Exercicio 22-Faça um programa que leia um número. Se positivo armazene-o em A, se for negativo, em B. No final mostrar o
-// resultado
-
+///Exercicio 22-
 // Console.WriteLine("Digite um valor");
 // int valor = int.Parse(Console.ReadLine());
 
-// if (valor >= 0)
-// {
-//     int A = valor;
-//     int B = Writeline = "Sem "
-// }
-// else
-// {
-// }
-
+// if (valor > 0)
+//     {
+//         int A = valor;
+//         Console.WriteLine($"O valor de {A} é positivo");
+//     }
+// else 
+//     {
+//         int B = valor;
+//         Console.WriteLine($"O valor de {B} é negativo ");
+//     }
 
 ///Nível 3: Estrutura de Seleção
 // 23) Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
@@ -326,3 +330,5 @@
 // 3 – Multiplicação
 // 4 – Divisão
 ///uma lista de opçoes de calculos e poder selecionar uma delas dentre as que estao na lista
+
+

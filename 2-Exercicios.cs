@@ -254,9 +254,7 @@
 //     Console.WriteLine("Os valores fornecidos não formam um triângulo");
 // }
 
-///Exercicio 20 - Escrever um programa declarando três variáveis do tipo inteiro (a, b e c). Ler um valor maior que zero para cada
-// variável (se o valor digitado não é válido, mostrar mensagem e ler novamente). Exibe o menor valor lido
-// multiplicado pelo maior e o maior valor dividido pelo menor.
+///Exercicio 20 -
 // int A = LerValor("A");
 // int B = LerValor("B");
 // int C = LerValor("C");
@@ -280,15 +278,40 @@
 //     }
 // }
 
-///Exercicio 22 - ) Faça um programa que leia um número inteiro e mostre uma mensagem na tela indicando se este número é
+///Exercicio 21 - ) Faça um programa que leia um número inteiro e mostre uma mensagem na tela indicando se este número é
 // positivo ou negativo. Pare a execução do programa quando o usuário requisitar. 
+
 
 // Console.WriteLine("Digite um valor");
 // int valor = int.Parse(Console.ReadLine());
 
-// switch (valor) 
-// {
-//     case 0:
-
-    
+// if (valor >= 0){
+//     Console.WriteLine("O valor é positivo");
 // }
+// else
+// {
+//     Console.WriteLine("O valor é negativo");
+// }
+
+
+
+///Exercicio 22-
+// Console.WriteLine("Digite um valor");
+// int valor = int.Parse(Console.ReadLine());
+
+// if (valor >= 0){
+//     Console.WriteLine("O valor é positivo");
+// }
+// else
+// {
+//     Console.WriteLine("O valor é negativo");
+// }
+
+
+///Nível 3: Estrutura de Seleção
+// 23) Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
+// 1 – Adição
+// 2 – Subtração
+// 3 – Multiplicação
+// 4 – Divisão
+///uma lista de opçoes de calculos e poder selecionar uma delas dentre as que estao na lista

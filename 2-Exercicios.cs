@@ -1,4 +1,3 @@
-//Exercicio 11 - level 2 
 // Console.WriteLine("Escreva o valor de B");
 // int B = int.Parse(Console.ReadLine());
 
@@ -10,7 +9,6 @@
 
 // Console.WriteLine($"O Valor de A é igual :{A}\nO Valor de B é igual a:{B}");
 
-//Exercicio 12 
 // Console.WriteLine("Digite o valor de X");
 
 // int x = int.Parse(Console.ReadLine());
@@ -25,7 +23,6 @@
 //     Console.WriteLine($"O módulo de X é igual a:{modulo}");
 // }
 
-//Exercicio 13 
 // Console.WriteLine("Digite um valor");
 
 // int numero1 = int.Parse(Console.ReadLine());
@@ -85,7 +82,6 @@
 //     Console.WriteLine($"A ordem dos valores em decresente : {menor} , {medio} , {maior}");
 // }
 
-//Exercicio 14 
 // Console.WriteLine("Digite um valor");
 
 // double numero1 = double.Parse(Console.ReadLine());
@@ -113,7 +109,6 @@
 //     Console.WriteLine($"A diferença entre valores é : {diferenca}");
 // }
 
-//Exercicio 15 
 
 // Console.WriteLine("Digite a nota do primeiro bimestre");
 
@@ -153,8 +148,6 @@
 //     }
 // }
 
-//Exercicio 16 
-
 // Console.WriteLine("Digite o Primeiro valor");
 
 // double numero1 = double.Parse(Console.ReadLine());
@@ -184,8 +177,6 @@
 //     Console.WriteLine("Os numeros são iguais");
 // }
 
-//Exercicio 17 
-
 // Console.WriteLine("Digite um numero");
 
 // int numero1 = int.Parse(Console.ReadLine()); 
@@ -199,7 +190,6 @@
 //     Console.WriteLine("Valor invalido");
 // }
 
-//Exercicio 18 
 // Console.WriteLine("Digite um valor");
 // int valor = int.Parse(Console.ReadLine()); 
 
@@ -219,8 +209,6 @@
 //     Console.WriteLine("Codigo invalido");
 //     break;
 // }
-
-//Exercicio 19
 
 // Console.WriteLine("Digite um valor");
 
@@ -254,7 +242,6 @@
 //     Console.WriteLine("Os valores fornecidos não formam um triângulo");
 // }
 
-//Exercicio 20 -
 // int A = LerValor("A");
 // int B = LerValor("B");
 // int C = LerValor("C");
@@ -278,8 +265,8 @@
 //     }
 // }
 
-// /Exercicio 21 - 
 // while (true) 
+
 // {   
 //     Console.WriteLine("Digite um número inteiro (ou 'sair' para terminar): ");
 //     string input = Console.ReadLine();
@@ -307,7 +294,7 @@
 //         Console.WriteLine ("Número invalido, por favor Digite um número valido ");
 //     }
 // }
-//Exercicio 22- 
+
 // Console.WriteLine("Digite um valor");
 //     int valor = int.Parse(Console.ReadLine());
 
@@ -327,7 +314,6 @@
 //     }
 // Console.WriteLine("\nResultado Final;");
 // {
-
 //     if(A != 0)
 //     {
 //         Console.WriteLine($"A(Número Posítivo):{A}");
@@ -347,32 +333,112 @@
 //     }
 // }
 
-// Exercicio 23 -
 // Console.WriteLine("1-Adição = A + B\n2-Subtração = A - B\n3-Multiplicação = A * B\n4-Divisão = A / B");
 
-//Exercicio 24 -    Escreva um programa que leia dois números inteiros e apresente as opções para usuário escolher o que deseja
-// realizar:
-// 1 – Verificar se um dos números lidos é ou não múltiplo do outro
-// 2 – Verificar se os dois números lidos são pares
-// 3 – Verificar se a média dos dois números é maior ou igual a 7.
-// 4 – Sair 
-
-// Console.WriteLine("Digite um valor");
-int A = int.Parse(Console.ReadLine());
-Console.WriteLine("Digite o segundo valor");
-int B = int.Parse(Console.ReadLine());
-
-
+// while (true)
+//         {
+//             Console.WriteLine("Digite o primeiro valor:");
+//             int valor1 = int.Parse(Console.ReadLine());
+//             Console.WriteLine("Digite o segundo valor:");
+//             int valor2 = int.Parse(Console.ReadLine());
+//             Console.WriteLine("1-Verificar se um dos números lidos é ou não múltiplo de outro\n2-Verificar se os dois números lidos são pares\n3-Verificar se a média dos dois números é maior ou igual a 7\n4-Sair");
+//             int opcao = int.Parse(Console.ReadLine());
+//             switch (opcao)
+//             {
+//                 case 1:
+//                     if (valor1 % valor2 == 0)
+//                     {
+//                         Console.WriteLine($"O {valor1} é múltiplo de {valor2}");
+//                     }
+//                     else if (valor2 % valor1 == 0)
+//                     {
+//                         Console.WriteLine($"O {valor2} é múltiplo de {valor1}");
+//                     }
+//                     else
+//                     {
+//                         Console.WriteLine("Nenhum dos valores é múltiplo do outro");
+//                     }
+//                     break;
+//                 case 2:
+//                     if (valor1 % 2 == 0 && valor2 % 2 == 0)
+//                     {
+//                         Console.WriteLine("Os valores são pares");
+//                     }
+//                     else
+//                     {
+//                         Console.WriteLine("Os valores não são pares");
+//                     }
+//                     break;
+//                 case 3:
+//                     double media = (valor1 + valor2) / 2.0;
+//                     if (media >= 7)
+//                     {
+//                         Console.WriteLine($"A média dos dois números é {media} e é maior ou igual a 7.");
+//                     }
+//                     else
+//                     {
+//                         Console.WriteLine($"A média dos dois números é {media} e é menor que 7.");
+//                     }
+//                     break;
+//                 case 4:
+//                     Console.WriteLine("Saindo...");
+//                     return;
+//                 default:
+//                     Console.WriteLine("Por favor digite um valor válido");
+//                     break;
+//             }
+// }
 
 //Exercicio 25 -) Tendo como dados de entrada a altura e o sexo de uma pessoa, faça um programa que calcule seu peso ideal,
 // utilizando as seguintes fórmulas: (h = altura)
 // - Para homens: (72.7*h) - 58
 // - Para mulheres: (62.1 *h) - 44.7 
 
-// Console.WriteLine("Informe seu sexo(Masculino ou Femino)");
-// string sexo =Console.ReadLine(); 
-// sexo.ToLower(); 
-// Console.WriteLine("Informe sua altura");
-// string altura= string.Parse(Console.ReadLine()); 
+using System.ComponentModel;
 
+///Exercicio 11 - level 2 
+///Exercicio 12 
+///Exercicio 13 
+///Exercicio 14 
+///
+///Exercicio 15 
+///Exercicio 16 
+///
+///Exercicio 17 
+///
+///Exercicio 18 
+///
+///Exercicio 19
+///
+///Exercicio 20 -
+///
+///Exercicio 21 - 
+///Exercicio 22- 
+///
+///Exercicio 23 - Level 3
+///Exercicio 24 -
+///
+// while (true)
+// {
+//     Console.WriteLine("Digite a altura");
+//         double h = double.Parse(Console.ReadLine());
+//     Console.WriteLine($"Selecione seu sexo:\n1-Masculino\n2-Feminino");
+//         int opcao = int.Parse(Console.ReadLine());
+//         double peso = 0;
+//     switch (opcao)
+//             {
+//                 case 1:
+//                     peso = (72.7 * h) - 58;
+//                     Console.WriteLine($"O seu peso ideal é = {peso}");
+//                 break;
 
+//                 case 2:
+//                     peso = (62.1 * h) - 44.7;
+//                     Console.WriteLine($"O seu peso ideal é = {peso}");
+//                 break;
+
+//                 default:
+//                     Console.WriteLine("Escreva um número válido (1, 2)");
+//                 continue;
+//             }
+// }

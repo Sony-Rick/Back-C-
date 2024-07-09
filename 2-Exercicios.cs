@@ -1,4 +1,4 @@
-///Exercicio 11 - level 2 
+//Exercicio 11 - level 2 
 // Console.WriteLine("Escreva o valor de B");
 // int B = int.Parse(Console.ReadLine());
 
@@ -10,7 +10,7 @@
 
 // Console.WriteLine($"O Valor de A é igual :{A}\nO Valor de B é igual a:{B}");
 
-///Exercicio 12 
+//Exercicio 12 
 // Console.WriteLine("Digite o valor de X");
 
 // int x = int.Parse(Console.ReadLine());
@@ -25,7 +25,7 @@
 //     Console.WriteLine($"O módulo de X é igual a:{modulo}");
 // }
 
-///Exercicio 13 
+//Exercicio 13 
 // Console.WriteLine("Digite um valor");
 
 // int numero1 = int.Parse(Console.ReadLine());
@@ -85,7 +85,7 @@
 //     Console.WriteLine($"A ordem dos valores em decresente : {menor} , {medio} , {maior}");
 // }
 
-///Exercicio 14 
+//Exercicio 14 
 // Console.WriteLine("Digite um valor");
 
 // double numero1 = double.Parse(Console.ReadLine());
@@ -113,7 +113,7 @@
 //     Console.WriteLine($"A diferença entre valores é : {diferenca}");
 // }
 
-///Exercicio 15 
+//Exercicio 15 
 
 // Console.WriteLine("Digite a nota do primeiro bimestre");
 
@@ -153,7 +153,7 @@
 //     }
 // }
 
-///Exercicio 16 
+//Exercicio 16 
 
 // Console.WriteLine("Digite o Primeiro valor");
 
@@ -184,7 +184,7 @@
 //     Console.WriteLine("Os numeros são iguais");
 // }
 
-///Exercicio 17 
+//Exercicio 17 
 
 // Console.WriteLine("Digite um numero");
 
@@ -199,7 +199,7 @@
 //     Console.WriteLine("Valor invalido");
 // }
 
-///Exercicio 18 
+//Exercicio 18 
 // Console.WriteLine("Digite um valor");
 // int valor = int.Parse(Console.ReadLine()); 
 
@@ -220,7 +220,7 @@
 //     break;
 // }
 
-///Exercicio 19
+//Exercicio 19
 
 // Console.WriteLine("Digite um valor");
 
@@ -254,7 +254,7 @@
 //     Console.WriteLine("Os valores fornecidos não formam um triângulo");
 // }
 
-///Exercicio 20 -
+//Exercicio 20 -
 // int A = LerValor("A");
 // int B = LerValor("B");
 // int C = LerValor("C");
@@ -310,18 +310,43 @@
 
 ///Exercicio 22-
 // Console.WriteLine("Digite um valor");
-// int valor = int.Parse(Console.ReadLine());
+//     int valor = int.Parse(Console.ReadLine());
 
-// if (valor > 0)
+//     int A = 0, B = 0;
+    
+//     if (valor > 0)
+//         {
+//             A = valor;
+//         }
+//     else if (valor< 0)
 //     {
-//         int A = valor;
-//         Console.WriteLine($"O valor de {A} é positivo");
+//             B = valor;
 //     }
-// else 
+//     else
 //     {
-//         int B = valor;
-//         Console.WriteLine($"O valor de {B} é negativo ");
+//         Console.WriteLine("O valor não foi armazenado");
 //     }
+// Console.WriteLine("\nResultado Final;");
+// {
+
+//     if(A != 0)
+//     {
+//         Console.WriteLine($"A(Número Posítivo):{A}");
+//     }
+//         else 
+//     {
+//         Console.WriteLine("A(número positivo):Nenhum valor armazenado");
+//     }
+    
+//     if(B != 0)
+//     {
+//         Console.WriteLine($"A(Números Negativos):{B}");
+//     }
+//         else
+//     {
+//         Console.WriteLine("A(Números Negativos):Nenhum valor armazenado");
+//     }
+// }
 
 ///Nível 3: Estrutura de Seleção
 // 23) Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:

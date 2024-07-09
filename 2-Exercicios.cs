@@ -100,7 +100,7 @@
 // {
 //     maior = numero1;
 //     menor = numero2;
-    
+
 //     double diferenca = numero1 % numero2;
 //     Console.WriteLine($"A diferença entre valores é : {diferenca}");
 // }
@@ -108,7 +108,7 @@
 // {
 //     maior = numero2;
 //     menor = numero1;
-    
+
 //     double diferenca = numero2 % numero1;
 //     Console.WriteLine($"A diferença entre valores é : {diferenca}");
 // }
@@ -142,7 +142,7 @@
 //     Console.WriteLine("Digite o valor da recuperação");
 //     double recuperacao = double.Parse(Console.ReadLine());
 //     double novaMedida = (media + recuperacao)/2;
-    
+
 //     if(novaMedida >= 7)
 //     {
 //         Console.WriteLine("Aluno Aprovado");
@@ -214,7 +214,7 @@
 //     case 3:
 //     Console.WriteLine("três");
 //     break;
-    
+
 //     default:
 //     Console.WriteLine("Codigo invalido");
 //     break;
@@ -296,7 +296,7 @@
 //             {
 //                 Console.WriteLine("O valor é positivo");
 //             }
-            
+
 //             else
 //             {
 //                 Console.WriteLine("O valor é negativo");
@@ -307,13 +307,12 @@
 //         Console.WriteLine ("Número invalido, por favor Digite um número valido ");
 //     }
 // }
-
-///Exercicio 22-
+//Exercicio 22- 
 // Console.WriteLine("Digite um valor");
 //     int valor = int.Parse(Console.ReadLine());
 
 //     int A = 0, B = 0;
-    
+
 //     if (valor > 0)
 //         {
 //             A = valor;
@@ -337,7 +336,7 @@
 //     {
 //         Console.WriteLine("A(número positivo):Nenhum valor armazenado");
 //     }
-    
+//
 //     if(B != 0)
 //     {
 //         Console.WriteLine($"A(Números Negativos):{B}");
@@ -348,12 +347,32 @@
 //     }
 // }
 
-///Nível 3: Estrutura de Seleção
-// 23) Escreva um programa que exiba as seguintes opções e realize os que se pede em cada uma delas:
-// 1 – Adição
-// 2 – Subtração
-// 3 – Multiplicação
-// 4 – Divisão
-///uma lista de opçoes de calculos e poder selecionar uma delas dentre as que estao na lista
+// Exercicio 23 -
+// Console.WriteLine("1-Adição = A + B\n2-Subtração = A - B\n3-Multiplicação = A * B\n4-Divisão = A / B");
+
+//Exercicio 24 -    Escreva um programa que leia dois números inteiros e apresente as opções para usuário escolher o que deseja
+// realizar:
+// 1 – Verificar se um dos números lidos é ou não múltiplo do outro
+// 2 – Verificar se os dois números lidos são pares
+// 3 – Verificar se a média dos dois números é maior ou igual a 7.
+// 4 – Sair 
+
+// Console.WriteLine("Digite um valor");
+int A = int.Parse(Console.ReadLine());
+Console.WriteLine("Digite o segundo valor");
+int B = int.Parse(Console.ReadLine());
+
+
+
+//Exercicio 25 -) Tendo como dados de entrada a altura e o sexo de uma pessoa, faça um programa que calcule seu peso ideal,
+// utilizando as seguintes fórmulas: (h = altura)
+// - Para homens: (72.7*h) - 58
+// - Para mulheres: (62.1 *h) - 44.7 
+
+// Console.WriteLine("Informe seu sexo(Masculino ou Femino)");
+// string sexo =Console.ReadLine(); 
+// sexo.ToLower(); 
+// Console.WriteLine("Informe sua altura");
+// string altura= string.Parse(Console.ReadLine()); 
 
 

@@ -1,3 +1,4 @@
+///Exercicio 11 - level 2 
 // Console.WriteLine("Escreva o valor de B");
 // int B = int.Parse(Console.ReadLine());
 
@@ -9,6 +10,7 @@
 
 // Console.WriteLine($"O Valor de A é igual :{A}\nO Valor de B é igual a:{B}");
 
+///Exercicio 12 
 // Console.WriteLine("Digite o valor de X");
 
 // int x = int.Parse(Console.ReadLine());
@@ -23,6 +25,7 @@
 //     Console.WriteLine($"O módulo de X é igual a:{modulo}");
 // }
 
+///Exercicio 13 
 // Console.WriteLine("Digite um valor");
 
 // int numero1 = int.Parse(Console.ReadLine());
@@ -82,6 +85,8 @@
 //     Console.WriteLine($"A ordem dos valores em decresente : {menor} , {medio} , {maior}");
 // }
 
+///Exercicio 14 
+///
 // Console.WriteLine("Digite um valor");
 
 // double numero1 = double.Parse(Console.ReadLine());
@@ -109,6 +114,7 @@
 //     Console.WriteLine($"A diferença entre valores é : {diferenca}");
 // }
 
+///Exercicio 15 
 
 // Console.WriteLine("Digite a nota do primeiro bimestre");
 
@@ -148,6 +154,8 @@
 //     }
 // }
 
+///Exercicio 16 
+///
 // Console.WriteLine("Digite o Primeiro valor");
 
 // double numero1 = double.Parse(Console.ReadLine());
@@ -177,6 +185,8 @@
 //     Console.WriteLine("Os numeros são iguais");
 // }
 
+///Exercicio 17 
+///
 // Console.WriteLine("Digite um numero");
 
 // int numero1 = int.Parse(Console.ReadLine()); 
@@ -190,6 +200,8 @@
 //     Console.WriteLine("Valor invalido");
 // }
 
+///Exercicio 18 
+///
 // Console.WriteLine("Digite um valor");
 // int valor = int.Parse(Console.ReadLine()); 
 
@@ -210,6 +222,8 @@
 //     break;
 // }
 
+///Exercicio 19
+///
 // Console.WriteLine("Digite um valor");
 
 // int A = int.Parse(Console.ReadLine());
@@ -242,6 +256,8 @@
 //     Console.WriteLine("Os valores fornecidos não formam um triângulo");
 // }
 
+///Exercicio 20 -
+///
 // int A = LerValor("A");
 // int B = LerValor("B");
 // int C = LerValor("C");
@@ -265,6 +281,7 @@
 //     }
 // }
 
+///Exercicio 21 - 
 // while (true) 
 
 // {   
@@ -295,6 +312,8 @@
 //     }
 // }
 
+///Exercicio 22- 
+///
 // Console.WriteLine("Digite um valor");
 //     int valor = int.Parse(Console.ReadLine());
 
@@ -333,8 +352,10 @@
 //     }
 // }
 
+/// Exercicio 23 -
 // Console.WriteLine("1-Adição = A + B\n2-Subtração = A - B\n3-Multiplicação = A * B\n4-Divisão = A / B");
 
+///Exercicio 24 -
 // while (true)
 //         {
 //             Console.WriteLine("Digite o primeiro valor:");
@@ -389,56 +410,28 @@
 //             }
 // }
 
-//Exercicio 25 -) Tendo como dados de entrada a altura e o sexo de uma pessoa, faça um programa que calcule seu peso ideal,
-// utilizando as seguintes fórmulas: (h = altura)
-// - Para homens: (72.7*h) - 58
-// - Para mulheres: (62.1 *h) - 44.7 
+//Exercicio 25 -
+while (true)
+{
+    Console.WriteLine("Digite a altura");
+        double h = double.Parse(Console.ReadLine());
+    Console.WriteLine($"Selecione seu sexo:\n1-Masculino\n2-Feminino");
+        int opcao = int.Parse(Console.ReadLine());
+        double peso = 0;
+    switch (opcao)
+            {
+                case 1:
+                    peso = (72.7 * h) - 58;
+                    Console.WriteLine($"O seu peso ideal é = {peso}");
+                    break;
 
-using System.ComponentModel;
+                case 2:
+                    peso = (62.1 * h) - 44.7;
+                    Console.WriteLine($"O seu peso ideal é = {peso}");
+                    break;
 
-///Exercicio 11 - level 2 
-///Exercicio 12 
-///Exercicio 13 
-///Exercicio 14 
-///
-///Exercicio 15 
-///Exercicio 16 
-///
-///Exercicio 17 
-///
-///Exercicio 18 
-///
-///Exercicio 19
-///
-///Exercicio 20 -
-///
-///Exercicio 21 - 
-///Exercicio 22- 
-///
-///Exercicio 23 - Level 3
-///Exercicio 24 -
-///
-// while (true)
-// {
-//     Console.WriteLine("Digite a altura");
-//         double h = double.Parse(Console.ReadLine());
-//     Console.WriteLine($"Selecione seu sexo:\n1-Masculino\n2-Feminino");
-//         int opcao = int.Parse(Console.ReadLine());
-//         double peso = 0;
-//     switch (opcao)
-//             {
-//                 case 1:
-//                     peso = (72.7 * h) - 58;
-//                     Console.WriteLine($"O seu peso ideal é = {peso}");
-//                 break;
-
-//                 case 2:
-//                     peso = (62.1 * h) - 44.7;
-//                     Console.WriteLine($"O seu peso ideal é = {peso}");
-//                 break;
-
-//                 default:
-//                     Console.WriteLine("Escreva um número válido (1, 2)");
-//                 continue;
-//             }
-// }
+                default:
+                    Console.WriteLine("Escreva um número válido (1, 2)");
+                    continue;
+            }
+}

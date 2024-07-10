@@ -354,9 +354,36 @@
 
 // / Exercicio 23 -
 
-// Console.WriteLine("1-Adição = A + B\n2-Subtração = A - B\n3-Multiplicação = A * B\n4-Divisão");
+// Console.WriteLine("1-Adição");
 
+// Console.WriteLine("2-Subtração");
 
+// Console.WriteLine("3-Multiplicação");
+
+// Console.WriteLine("4-Divisão");
+
+// Console.WriteLine  ("Escolha uma das opções:");
+
+// int opcao = int.Parse(Console.ReadLine()); 
+
+// switch (opcao) 
+// {
+//     case 1:
+//     Console.WriteLine("Adição = A + B");
+//     break;
+//     case 2:
+//     Console.WriteLine("Subtração = A - B");
+//     break;
+//     case 3:
+//     Console.WriteLine("Multiplicação = A * B ");
+//     break;
+//     case 4:
+//     Console.WriteLine("Divisão = A / B");
+//     break;
+//     default:
+//     Console.WriteLine("Por favor escolha uma das opções validas. Exemplo(1,2,3,4)");
+//     break;
+// }
 
 
 ///Exercicio 24 -

@@ -352,86 +352,111 @@
 //     }
 // }
 
-/// Exercicio 23 -
-// Console.WriteLine("1-Adição = A + B\n2-Subtração = A - B\n3-Multiplicação = A * B\n4-Divisão = A / B");
+// / Exercicio 23 -
+
+// Console.WriteLine("1-Adição = A + B\n2-Subtração = A - B\n3-Multiplicação = A * B\n4-Divisão");
+
+
+
 
 ///Exercicio 24 -
+
+// Console.WriteLine("Digite o primeiro valor:");
+//         int valor1 = int.Parse(Console.ReadLine());
+    
+//     Console.WriteLine("Digite o segundo valor:");'
+//         int valor2 = int.Parse(Console.ReadLine());
+
+
 // while (true)
-//         {
-//             Console.WriteLine("Digite o primeiro valor:");
-//             int valor1 = int.Parse(Console.ReadLine());
-//             Console.WriteLine("Digite o segundo valor:");
-//             int valor2 = int.Parse(Console.ReadLine());
-//             Console.WriteLine("1-Verificar se um dos números lidos é ou não múltiplo de outro\n2-Verificar se os dois números lidos são pares\n3-Verificar se a média dos dois números é maior ou igual a 7\n4-Sair");
-//             int opcao = int.Parse(Console.ReadLine());
-//             switch (opcao)
+// {
+//     Console.WriteLine("1 - Verificar se um dos números lidos é ou não múltiplo do outro");
+//     Console.WriteLine("2 - Verificar se os dois números lidos são pares");
+//     Console.WriteLine("3 - Verificar se a média dos dois números é maior ou igual a 7.");
+//     Console.WriteLine("4 - Sair");
+//         int opcao = int.Parse(Console.ReadLine());
+
+
+//     switch (opcao)
+//     {
+//         case 1:
+//             if (valor1 % valor2 == 0)
 //             {
-//                 case 1:
-//                     if (valor1 % valor2 == 0)
-//                     {
-//                         Console.WriteLine($"O {valor1} é múltiplo de {valor2}");
-//                     }
-//                     else if (valor2 % valor1 == 0)
-//                     {
-//                         Console.WriteLine($"O {valor2} é múltiplo de {valor1}");
-//                     }
-//                     else
-//                     {
-//                         Console.WriteLine("Nenhum dos valores é múltiplo do outro");
-//                     }
-//                     break;
-//                 case 2:
-//                     if (valor1 % 2 == 0 && valor2 % 2 == 0)
-//                     {
-//                         Console.WriteLine("Os valores são pares");
-//                     }
-//                     else
-//                     {
-//                         Console.WriteLine("Os valores não são pares");
-//                     }
-//                     break;
-//                 case 3:
-//                     double media = (valor1 + valor2) / 2.0;
-//                     if (media >= 7)
-//                     {
-//                         Console.WriteLine($"A média dos dois números é {media} e é maior ou igual a 7.");
-//                     }
-//                     else
-//                     {
-//                         Console.WriteLine($"A média dos dois números é {media} e é menor que 7.");
-//                     }
-//                     break;
-//                 case 4:
-//                     Console.WriteLine("Saindo...");
-//                     return;
-//                 default:
-//                     Console.WriteLine("Por favor digite um valor válido");
-//                     break;
+//                 Console.WriteLine($"O {valor1} é múltiplo de {valor2}");
 //             }
+//             else if (valor2 % valor1 == 0)
+//             {
+//                 Console.WriteLine($"O {valor2} é múltiplo de {valor1}");
+//             }
+//             else
+//             {
+//                 Console.WriteLine("Nenhum dos valores é múltiplo do outro");
+//             }
+//             break;
+//         case 2:
+//             if (valor1 % 2 == 0 && valor2 % 2 == 0)
+//             {
+//                 Console.WriteLine("Os valores são pares");
+//             }
+//             else
+//             {
+//                 Console.WriteLine("Os valores não são pares");
+//             }
+//             break;
+//         case 3:
+//             double media = (valor1 + valor2) / 2.0;
+//             if (media >= 7)
+//             {
+//                 Console.WriteLine($"A média dos dois números é {media} e é maior ou igual a 7.");
+//             }
+//             else
+//             {
+//                 Console.WriteLine($"A média dos dois números é {media} e é menor que 7.");
+//             }
+//             break;
+//         case 4:
+//             Console.WriteLine("Saindo...");
+//             return;
+//         default:
+//             Console.WriteLine("Por favor digite um valor válido");
+//             break;
+//     }
 // }
 
-//Exercicio 25 -
-while (true)
-{
-    Console.WriteLine("Digite a altura");
-        double h = double.Parse(Console.ReadLine());
-    Console.WriteLine($"Selecione seu sexo:\n1-Masculino\n2-Feminino");
-        int opcao = int.Parse(Console.ReadLine());
-        double peso = 0;
-    switch (opcao)
-            {
-                case 1:
-                    peso = (72.7 * h) - 58;
-                    Console.WriteLine($"O seu peso ideal é = {peso}");
-                    break;
+///Exercicio 25 -
 
-                case 2:
-                    peso = (62.1 * h) - 44.7;
-                    Console.WriteLine($"O seu peso ideal é = {peso}");
-                    break;
+// Console.WriteLine("Digite a altura(Exemplo: 1,80)");
+// double h = double.Parse(Console.ReadLine());
 
-                default:
-                    Console.WriteLine("Escreva um número válido (1, 2)");
-                    continue;
-            }
-}
+// Console.WriteLine("Selecione seu sexo:1-Masculino");
+// Console.WriteLine("Selecione seu sexo:2-Masculino");
+
+// int opcao = int.Parse(Console.ReadLine());
+
+// double peso = 0;
+
+// switch (opcao)
+// {
+//     case 1:
+//         peso = (72.7 * h) - 58;
+//         Console.WriteLine($"O seu peso ideal é = {peso:F2}");
+//         break;
+
+//     case 2:
+//         peso = (62.1 * h) - 44.7;
+//         Console.WriteLine($"O seu peso ideal é = {peso:F2}");
+//         break;
+
+//     default:
+//         Console.WriteLine("Escreva uma opção válida (1 ou 2)");
+//         break;
+// }
+
+///Exercicio 26 - Nivel 4 
+///Escreva um programa que exiba os números de 1 a 100 na tela em ordem decrescente.
+/// 
+// for (int i = 100; i >= 1; i--) 
+// {
+//     Console.WriteLine(i);
+// }
+

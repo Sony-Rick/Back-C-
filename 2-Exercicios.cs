@@ -479,11 +479,29 @@
 //         break;
 // }
 
-///Exercicio 26 - Nivel 4 
+///Exercicio 26 - Nivel 4 -  Estruturas de Repetição        
 ///Escreva um programa que exiba os números de 1 a 100 na tela em ordem decrescente.
 /// 
 // for (int i = 100; i >= 1; i--) 
 // {
 //     Console.WriteLine(i);
 // }
+
+///Exercicio 27-   Escreva um programa que leia: (voltar depois pq nao sei for )
+// - a quantidade de números que deverá processar;
+// - os números que deverá processar,e calcule e exiba, para cada número a ser processado o seu fatorial.
+// Lembrete: O fatorial de um número N é dado pela fórmula: N! = 1 * 2 * 3 * 4 * 5 * ... * N 
+
+
+// Console.WriteLine("Numeros para processar");
+// int numero = int.Parse(Console.ReadLine());
+
+//     for (int i = 1;  i <= numero; i++){
+//         double fatorial = numero*i;
+//     }
+//     Console.WriteLine($"O fatorial de {numero} é {fatorial}");
+
+///Exercicio 28 - ) Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
+///
+
 

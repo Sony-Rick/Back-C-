@@ -496,12 +496,24 @@
 // Console.WriteLine("Numeros para processar");
 // int numero = int.Parse(Console.ReadLine());
 
-//     for (int i = 1;  i <= numero; i++){
-//         double fatorial = numero*i;
+// if (numero <  0 )
+// {
+//     Console.WriteLine("Não é possivel calcular o fatorial");
+// }
+
+// else 
+// {
+//     double fatorial = 1;
+//     for (int i = 1;  i <= numero; i++)
+//     {
+//         fatorial *= i;      
 //     }
 //     Console.WriteLine($"O fatorial de {numero} é {fatorial}");
-
+// }
 ///Exercicio 28 - ) Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
 ///
 
+// for (int i = 100; i < 100; i++) {
+    
+// }  
 

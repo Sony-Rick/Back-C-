@@ -512,8 +512,9 @@
 // }
 ///Exercicio 28 - ) Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
 ///
-
-// for (int i = 100; i < 100; i++) {
-    
-// }  
-
+// Console.WriteLine("Números ímpares entre 100 e 200:");
+//         for (int i = 100 ; i <= 200; i++) 
+//             {
+//                 if( i % 2 != 0)
+//                 Console.WriteLine(i);
+//             }

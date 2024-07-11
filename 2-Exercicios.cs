@@ -518,3 +518,13 @@
 //                 if( i % 2 != 0)
 //                 Console.WriteLine(i);
 //             }
+
+///Exercicio 29 - 
+///
+
+// for(int i = 1; i <= 2000; i++)
+// {
+//     Console.WriteLine(i);
+// }
+
+///Exercicio 30 - 

@@ -494,22 +494,27 @@
 
 
 // Console.WriteLine("Numeros para processar");
-// int numero = int.Parse(Console.ReadLine());
-
-// if (numero <  0 )
-// {
-//     Console.WriteLine("Não é possivel calcular o fatorial");
-// }
-
-// else 
-// {
-//     double fatorial = 1;
-//     for (int i = 1;  i <= numero; i++)
+// if (int.TryParse(Console.ReadLine(), out int numero))
 //     {
-//         fatorial *= i;      
+//         if (numero > 0)
+//         if (numero <  0 )
+//         {
+//             Console.WriteLine("Não é possivel calcular o fatorial");
+//         }
+//         else 
+//         {
+//             double fatorial = 1;
+//             for (int i = 1;  i <= numero; i++)
+//             {
+//                 fatorial *= i;      
+//             }
+//             Console.WriteLine($"O fatorial de {numero} é {fatorial}");
+//         }
 //     }
-//     Console.WriteLine($"O fatorial de {numero} é {fatorial}");
-// }
+//     else
+//     {
+//         Console.WriteLine("Numero invalido por favor,digite um numero inteiro"); 
+//     }
 ///Exercicio 28 - ) Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
 ///
 // Console.WriteLine("Números ímpares entre 100 e 200:");
@@ -527,4 +532,8 @@
 //     Console.WriteLine(i);
 // }
 
-///Exercicio 30 - 
+///Exercicio 30 -  ) Escrever um programa que leia um conjunto de números positivos, e exiba se o número lido é par ou ímpar. Exiba
+// ao final a soma total dos números pares lidos e também a soma dos números ímpares lidos. Suporemos que o
+// número de elementos deste conjunto não é conhecido, e que um número negativo será utilizado para sinalizar o
+// fim dos dados.
+

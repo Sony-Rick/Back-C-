@@ -529,27 +529,27 @@
 //     Console.WriteLine(i);
 // }
 ///Exercicio 30- 
-Console.WriteLine("Digite um numero para calcular a tabuada");
-    if  (int.TryParse(Console.ReadLine(), out int numero))
-    {     
-        if (numero > 0)
-            {
-            Console.WriteLine($"A tabuada de {numero}");
-            for (int i = 1; i < 11; i++)
-            {
-                int resultado = numero * i;
-                Console.WriteLine($"{numero} x {i} = {resultado}");
-            }
-        }
-        else 
-            {
-                Console.WriteLine("Apenas numeros positivos ");
-            }
-    }
-    else
-    {
-        Console.WriteLine("Por favor digite um numero valido");
-    }
+// Console.WriteLine("Digite um numero para calcular a tabuada");
+//     if  (int.TryParse(Console.ReadLine(), out int numero))
+//     {     
+//         if (numero > 0)
+//             {
+//             Console.WriteLine($"A tabuada de {numero}");
+//             for (int i = 1; i < 11; i++)
+//             {
+//                 int resultado = numero * i;
+//                 Console.WriteLine($"{numero} x {i} = {resultado}");
+//             }
+//         }
+//         else 
+//             {
+//                 Console.WriteLine("Apenas numeros positivos ");
+//             }
+//     }
+//     else
+//     {
+//         Console.WriteLine("Por favor digite um numero valido");
+//     }
 
 
     ///Exercicio 31 -  ) Escrever um programa que leia um conjunto de números positivos, e exiba se o número lido é par ou ímpar. Exiba
@@ -557,24 +557,24 @@ Console.WriteLine("Digite um numero para calcular a tabuada");
 // número de elementos deste conjunto não é conhecido, e que um número negativo será utilizado para sinalizar o
 // fim dos dados.
 
-// Console.WriteLine("Numeros para processar");
-// if (int.TryParse(Console.ReadLine(), out int numero))
-//     {
-//         if (numero > 0 )
-//         if (numero < 0 )
-//         {         Console.WriteLine("Não é possivel calcular o fatorial");
-//         }
-//         else 
-//         {
-//             double fatorial = 1;
-//                 for (int i = 1;  i <= numero; i++)
-//             {
-//              fatorial *= i;                 
-//             }
-//             Console.WriteLine($"O fatorial de {numero} é {fatorial}");
-//         }
-//     }
-//     else
-//     {
-//     Console.WriteLine("Numero invalido por favor,digite um numero inteiro"); 
-// }
+Console.WriteLine("Numeros para processar");
+if (int.TryParse(Console.ReadLine(), out int numero))
+    {
+        if (numero > 0 )
+        if (numero < 0 )
+        {         Console.WriteLine("Não é possivel calcular o fatorial");
+        }
+        else 
+        {
+            double fatorial = 1;
+                for (int i = 1;  i <= numero; i++)
+            {
+             fatorial *= i;                 
+            }
+            Console.WriteLine($"O fatorial de {numero} é {fatorial}");
+        }
+    }
+    else
+    {
+    Console.WriteLine("Numero invalido por favor,digite um numero inteiro"); 
+}

@@ -526,26 +526,26 @@
 // }
 ///Exercicio 30- 
 // Console.WriteLine("Digite um numero para calcular a tabuada");
-//     if  (int.TryParse(Console.ReadLine(), out int numero))
-//     {     
-//         if (numero > 0)
-//             {
-//             Console.WriteLine($"A tabuada de {numero}");
-//             for (int i = 1; i < 11; i++)
-//             {
-//                 int resultado = numero * i;
-//                 Console.WriteLine($"{numero} x {i} = {resultado}");
-//             }
-//         }
-//         else 
-//             {
-//                 Console.WriteLine("Apenas numeros positivos ");
-//             }
-//     }
-//     else
+// if  (int.TryParse(Console.ReadLine(), out int numero))
+// {     
+//     if (numero > 0)
 //     {
-//         Console.WriteLine("Por favor digite um numero valido");
+//         Console.WriteLine($"A tabuada de {numero}");
+//         for (int i = 1; i < 11; i++)
+//         {
+//             int resultado = numero * i;
+//             Console.WriteLine($"{numero} x {i} = {resultado}");
+//         }
 //     }
+//     else 
+//     {
+//         Console.WriteLine("Apenas numeros positivos ");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Por favor digite um numero valido");
+// }
 
 
 ///Exercicio 31 -
@@ -574,3 +574,10 @@
 //             Console.WriteLine($" Soma dos Impares: {somaImpares}");
 //         }
 //     }
+
+///Exercicio 32 - Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos
+// ímpares a partir do número informado pelo usuário menor que 10 e maior que zero. 
+
+// int SomaPar = 0
+// int SomaImpar = 0
+

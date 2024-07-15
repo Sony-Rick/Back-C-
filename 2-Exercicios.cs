@@ -577,7 +577,48 @@
 
 ///Exercicio 32 - Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos
 // ímpares a partir do número informado pelo usuário menor que 10 e maior que zero. 
+// int numero = 0;
+// int SomaImpar = 0;
 
-// int SomaPar = 0
-// int SomaImpar = 0
+//         while (true)
+//         {
+//             Console.WriteLine("Digite um numero Impar entre 0 e 10 para iniciar (para sair digite um numero negativo):");
+//             numero = int.Parse(Console.ReadLine());
+//             if (numero < 0)
+//             {
+//                 break;
+//             }
+//             else if (numero > 0 && numero < 10)
+//             {
+//                 if (numero % 2 != 0)
+//                 {
+//                     SomaImpar = 0;
+//                     int contadorImpares = 0;
+//                     int atual = numero;
+
+//                     while (contadorImpares < 20)
+//                     {
+//                         if (atual % 2 != 0)
+//                         {
+//                             SomaImpar += atual * atual;
+//                             contadorImpares++;
+//                         }
+//                         atual++;
+//                     }
+
+//                     Console.WriteLine($"A soma dos quadrados dos 20 primeiros números ímpares a partir de {numero} é {SomaImpar}");
+//                 }
+//                 else
+//                 {
+//                     Console.WriteLine("O número fornecido é par. Tente novamente.");
+//                 }
+//             }
+//             else
+//             {
+//                 Console.WriteLine("Número inválido, digite um número entre 1 e 9.");
+//             }
+//         }
+
+
+
 

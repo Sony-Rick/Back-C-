@@ -487,14 +487,10 @@
 //     Console.WriteLine(i);
 // }
 
-///Exercicio 27-   Escreva um programa que leia: (voltar depois pq nao sei for )
-// - a quantidade de números que deverá processar;
-// - os números que deverá processar,e calcule e exiba, para cada número a ser processado o seu fatorial.
-// Lembrete: O fatorial de um número N é dado pela fórmula: N! = 1 * 2 * 3 * 4 * 5 * ... * N 
+///Exercicio 27-
 // Console.WriteLine("Numeros para processar");
 // if (int.TryParse(Console.ReadLine(), out int numero))
-//     {
-//         if (numero > 0)
+// {
 //         if (numero <  0 )
 //         {
 //             Console.WriteLine("Não é possivel calcular o fatorial");
@@ -508,11 +504,11 @@
 //             }
 //             Console.WriteLine($"O fatorial de {numero} é {fatorial}");
 //         }
-//     }
-//     else
-//     {
-//         Console.WriteLine("Numero invalido por favor,digite um numero inteiro"); 
-//     }
+// }
+// else
+// {
+//     Console.WriteLine("Numero invalido por favor,digite um numero inteiro"); 
+// }
 
 ///Exercicio 28 - ) Faça um programa que gera e escreve os números ímpares dos números lidos entre 100 e 200.
 ///
@@ -552,29 +548,29 @@
 //     }
 
 
-    ///Exercicio 31 -  ) Escrever um programa que leia um conjunto de números positivos, e exiba se o número lido é par ou ímpar. Exiba
-// ao final a soma total dos números pares lidos e também a soma dos números ímpares lidos. Suporemos que o
-// número de elementos deste conjunto não é conhecido, e que um número negativo será utilizado para sinalizar o
-// fim dos dados.
+///Exercicio 31 -
+// int numero;
+// int somaImpares =0;
+// int somaPares =0;
 
-Console.WriteLine("Numeros para processar");
-if (int.TryParse(Console.ReadLine(), out int numero))
-    {
-        if (numero > 0 )
-        if (numero < 0 )
-        {         Console.WriteLine("Não é possivel calcular o fatorial");
-        }
-        else 
-        {
-            double fatorial = 1;
-                for (int i = 1;  i <= numero; i++)
-            {
-             fatorial *= i;                 
-            }
-            Console.WriteLine($"O fatorial de {numero} é {fatorial}");
-        }
-    }
-    else
-    {
-    Console.WriteLine("Numero invalido por favor,digite um numero inteiro"); 
-}
+//     while (true)
+//     {
+//         Console.WriteLine("Digite numeros positivos para processar(negativo para sair)");
+//         numero = int.Parse(Console.ReadLine());
+//         if (numero < 0 )
+//             {
+//             break;
+//             }
+//         else if( numero % 2 == 0 )
+//         {
+//             Console.WriteLine($"O numero {numero} é Par");
+//             somaPares = numero + numero;
+//             Console.WriteLine($"Soma dos Pares: {somaPares}");
+//         }
+//         else
+//         {
+//             Console.WriteLine($"O numero {numero} é Impar");
+//             somaImpares = numero + numero;
+//             Console.WriteLine($" Soma dos Impares: {somaImpares}");
+//         }
+//     }

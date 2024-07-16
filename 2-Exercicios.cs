@@ -524,7 +524,7 @@
 // {
 //     Console.WriteLine(i);
 // }
-///Exercicio 30- 
+// /Exercicio 30- 
 // Console.WriteLine("Digite um numero para calcular a tabuada");
 // if  (int.TryParse(Console.ReadLine(), out int numero))
 // {     
@@ -548,7 +548,7 @@
 // }
 
 
-///Exercicio 31 -
+// /Exercicio 31 -
 // int numero;
 // int somaImpares =0;
 // int somaPares =0;
@@ -575,7 +575,7 @@
 //         }
 //     }
 
-///Exercicio 32 - Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos
+// /Exercicio 32 - Escreva um programa que calcule e exiba a soma dos quadrados dos 20 primeiros números inteiros positivos
 // ímpares a partir do número informado pelo usuário menor que 10 e maior que zero. 
 // int numero = 0;
 // int SomaImpar = 0;
@@ -618,7 +618,35 @@
 //                 Console.WriteLine("Número inválido, digite um número entre 1 e 9.");
 //             }
 //         }
+///Exercicio 33- Escreva um programa que calcule e exiba a média da nota dos alunos de uma turma em uma prova. O número de
+// alunos é desconhecido. Os dados de um aluno são: número de matrícula e a sua nota na prova em questão.   
+// int matricula;
+// int contadorAlunos = 0;
+// double somaNotas = 0;
+
+// while (true)
+// {
+//     Console.WriteLine("Digite a matricula do aluno(Digite o numero zero para sair)");
+//     matricula = int.Parse(Console.ReadLine());
+    
+//     if (matricula <= 0)
+//     {
+//         break;
+//     }
+    
+//     Console.WriteLine("Digite a nota do aluno");
+//     double notas = double.Parse(Console.ReadLine());
+//     somaNotas += notas;
+//     contadorAlunos++;
 
 
-
-
+// if (contadorAlunos > 0)
+// {
+//     double media = somaNotas / contadorAlunos;
+//     Console.WriteLine($"A média dos {contadorAlunos} alunos é: {media}");
+// }
+// else
+// {
+//     Console.WriteLine("Nenhum aluno foi cadastrado");
+// }
+// }

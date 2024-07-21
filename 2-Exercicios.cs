@@ -650,3 +650,6 @@
 //     Console.WriteLine("Nenhum aluno foi cadastrado");
 // }
 // }
+
+///Exercicio 34-
+///
